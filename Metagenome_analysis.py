@@ -108,7 +108,6 @@ def plot_gc_content_histogram(gc_contents):
     plt.grid(True)
     plt.show()
 
-# Example usage
 fasta_file = "aligned_readsx.fasta"
 gc_contents = analyze_gc_content(fasta_file)
 
