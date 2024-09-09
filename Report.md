@@ -30,18 +30,6 @@ Neighbor Joining (NJ) algorithm is a sequential method to create a phylogenetic 
 
 Lastly, we calculate the GC-content of our sequences using ‘calculate\_gc\_content()’ function in ‘biopython’. The individual GC-content for each sequence is stored in the dictionary, ‘gc-content’ and displayed.
 
-## **Visualization:**
-### **Multiple Sequence Alignment of 50 random sequences (a snippet):**
-- ![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.001.png)
-### **Phylogenetic Tree:** 
-Obtained from [iTOL](https://itol.embl.de/)
-
-![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.002.png)
-
-### **GC-Content:**
-
-![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.003.png)
-
 ## **Results and Discussions:**
 
 Multiple sequence alignment (MSA) results highlight conserved regions that are unchanged and exist in the same form in different genomes. In contrast, variable regions show evolutionary divergence through mismatches and gaps. These regions give information about selective pressures and mutations on microbial populations. The presence of diverse varied sequence in genomes is a hallmark of microbial communities that undergo swift genome alterations owing to evolutionary pressures. This is called genome flexibility in microbes (Cordero, 2014).
