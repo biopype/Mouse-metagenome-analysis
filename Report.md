@@ -8,9 +8,6 @@ In this project we aim to develop a python algorithm that utilizes metagenome da
 
 DNA sequencing of metagenomes yield insights into similarities and differences between multiple organisms. Multiple Sequence Alignment (MSA) is an approach that aims to align sequences based on conserved regions, genes that are similar in different organisms, and indicate no evolutionary change. We can also compare orthologous (same gene in different species) and paralogous (gene duplication within the same species) sequences to observe how functions of genes or proteins have diverged over time due to evolution (Gabaldón T, 2013). A very insightful representation of an MSA is a phylogenetic tree.
 
-![istockphoto-1350457469-612x612](https://github.com/user-attachments/assets/a87e9d04-6d16-431d-ab6b-d0daa5604763)
-![image](https://github.com/user-attachments/assets/69c3f337-035c-4306-997b-bd6d88efb1c0)
-
 ### 2) Phylogenetic tree:
 
 A phylogenetic tree explains genome evolution by representing genetic similarities between different species. It indicates genome divergence between species that has occurred due to various reasons, such as, mutations, gene duplications and other mechanisms. Genome sequencing helps in constructing a phylogenetic tree by describing how species should be arranged in a phylogenetic tree. Genes with more similar makeup are placed closer to each other and vice versa. A phylogenetic tree can also help in identifying a common ancestor of different species (Kapli, 2020).
@@ -32,6 +29,18 @@ For phylogenetic tree construction, we imported ‘DistanceCalculator’ that me
 Neighbor Joining (NJ) algorithm is a sequential method to create a phylogenetic tree by collecting sequences as individual nodes and arranging them in a way to minimize the branch lengths (Koichiro Tamura, 2004). Branch lengths refer to the genetic distance between organisms. We used NJ algorithm to construct a phylogenetic tree due to its accuracy for small number of nucleotides.
 
 Lastly, we calculate the GC-content of our sequences using ‘calculate\_gc\_content()’ function in ‘biopython’. The individual GC-content for each sequence is stored in the dictionary, ‘gc-content’ and displayed.
+
+## **Visualization:**
+### **Multiple Sequence Alignment of 50 random sequences (a snippet):**
+- ![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.001.png)
+### **Phylogenetic Tree:** 
+Obtained from [iTOL](https://itol.embl.de/)
+
+![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.002.png)
+
+### **GC-Content:**
+
+![](Aspose.Words.16a0594f-d5e5-4be2-9874-376840a5f3cd.003.png)
 
 ## **Results and Discussions:**
 
