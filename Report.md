@@ -26,7 +26,7 @@ A programming environment for our project was created by installing ‘biopython
 
 For phylogenetic tree construction, we imported ‘DistanceCalculator’ that measures the distance matrix between aligned sequences, and ‘DistanceTreeConstructor’ that creates a phylogenetic tree using the distance matrix. 
 
-Neighbor Joining (NJ) algorithm is a sequential method to create a phylogenetic tree by collecting sequences as individual nodes and arranging them in a way to minimize the branch lengths. (Koichiro Tamura, 2004) Branch lengths refer to the genetic distance between organisms. We used NJ algorithm to construct a phylogenetic tree due to its accuracy for small number of nucleotides.
+Neighbor Joining (NJ) algorithm is a sequential method to create a phylogenetic tree by collecting sequences as individual nodes and arranging them in a way to minimize the branch lengths (Koichiro Tamura, 2004). Branch lengths refer to the genetic distance between organisms. We used NJ algorithm to construct a phylogenetic tree due to its accuracy for small number of nucleotides.
 
 Lastly, we calculate the GC-content of our sequences using ‘calculate\_gc\_content()’ function in ‘biopython’. The individual GC-content for each sequence is stored in the dictionary, ‘gc-content’ and displayed.
 
